@@ -100,10 +100,10 @@ function HelloWorld() {
     <div>
       <p>Basic React component!</p>
       <p>Axios .GET</p>
-      {data ? <pre>Data: {JSON.stringify(data, null, 2)}</pre> : <p>No data fetched</p>}
+      {data ? <pre>Data: {JSON.stringify(data, null, 2)}</pre> : <p>No data fetched - Sorry</p>}
       {error && <p>{error}</p>}
-      {data && <button onClick={handleDownload}>Download JSON File created now</button>}<br/>
-      {data && <button onClick={handleDownloadText}>Download Text File created now</button>}
+      {data && <button onClick={handleDownload}>Download JSON File created now- Sorry</button>}<br/>
+      {data && <button onClick={handleDownloadText}>Download Text File created now- Sorry</button>}
       <button onClick={handleDownloadImage} disabled={loading}>
         {loading ? 'Downloading...' : 'Download Image'}
       </button>
