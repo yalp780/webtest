@@ -102,13 +102,13 @@ function HelloWorld() {
       <p>Axios .GET</p>
       {data ? <pre>Data: {JSON.stringify(data, null, 2)}</pre> : <p>No data fetched - Sorry Updated</p>}
       {error && <p>{error}</p>}
-      {data && <button onClick={handleDownload}>Download JSON File created now- Sorry Updated V1.0.2</button>}<br/>
-      {data && <button onClick={handleDownloadText}>Download Text File created now- Sorry Updated  V1.0.2</button>}
+      {data && <button onClick={handleDownload}>Download JSON File created now- Sorry Updated V1.0.3</button>}<br/>
+      {data && <button onClick={handleDownloadText}>Download Text File created now- Sorry Updated  V1.0.3</button>}
       <button onClick={handleDownloadImage} disabled={loading}>
         {loading ? 'Downloading...' : 'Download Image'}
       </button>
       {data && <button onClick={testingCORS}>Test CORS</button>}<br/>
-      {data && <button onClick={handleDownloadTextFile}>Download Text File to Local  V1.0.2</button>}<br/>
+      {data && <button onClick={handleDownloadTextFile}>Download Text File to Local  V1.0.3</button>}<br/>
 
 
     </div>
